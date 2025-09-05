@@ -32,19 +32,12 @@ namespace _4U_Assignment_One___The_Basics
 
             //2
             favQuote = favQuote.ToLower();
-            favQuote = favQuote.Replace("a", " ");
-            favQuote = favQuote.Replace("e", " ");
-            favQuote = favQuote.Replace("i", " ");
-            favQuote = favQuote.Replace("o", " ");
-            favQuote = favQuote.Replace("u", " ");
+            favQuote = favQuote.Replace("a", "").Replace("e", " ").Replace("i", " ").Replace("o", " ").Replace("u", " ");;
+
+
 
             Console.WriteLine(favQuote);
 
-
-            favQuote = "There is no spoon.";
-
-            favQuote = favQuote.Replace("no", "yes");
-            //favQuote = (favQuote.Trim(new char[] { "a", "e", "i", "o", "u" }));
 
 
 
